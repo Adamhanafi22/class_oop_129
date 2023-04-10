@@ -5,7 +5,8 @@ class Mahasiswa {
 public:
 	int nim;
 	string nama;
-	voit tampil() {
-		 
+	void tampil() {
+		cout << "NIM= " << nim;
+		cout << "\nNama= " << nama;
 	}
 };
