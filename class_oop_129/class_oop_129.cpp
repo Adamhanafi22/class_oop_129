@@ -23,16 +23,38 @@ public:
 		cin >> sks;
 		cout << "\nMasukkan Kode Mk= ";
 		cin >> kode;
-		cout << "\nMasukkan nama= ";
+		cout << "\nMasukkan nama Mk= ";
 		cin >> namaMk;
 
 	}
 	void tampilMK() {
-		cout << "\nJumlah sks= ";
-		cout << "\nKode MK= ";
-		cout << "\nNama MK= ";
+		cout << "\nJumlah sks= " << sks;
+		cout << "\nKode MK= " << kode;
+		cout << "\nNama MK= " << namaMk << endl;
 
 
 	}
+	
+	
 		
 };
+
+int main() {
+	Mahasiswa mhs;
+	Matakuliah mk;
+
+	cout << "\ninput data Mahasiswa " << endl;
+	cout << "\nMasukan Nim= ";
+	cin >> mhs.nim;
+	cout << "\nmasukan nama=";
+	cin >> mhs.nama;
+
+	
+
+	
+	mk.inputMK();
+	mk.tampilMK();
+	mhs.tampil();
+
+}
+
